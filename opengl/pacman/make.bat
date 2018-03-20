@@ -1,0 +1,1 @@
+gcc Pacman.c pacinit.c ai.c control.c -o pacman.exe -lopengl32 -lglu32 -lglut32
