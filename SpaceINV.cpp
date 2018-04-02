@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <strings.h>
+#include <conio.h>
 
 
 #define M 50
@@ -36,7 +37,9 @@ void pintar(int matriz[M][N]){
 
     } 
 
-    void teclas()
+
+
+void teclas()
     {
         char a;
         a=getch();
@@ -45,7 +48,7 @@ void pintar(int matriz[M][N]){
         if (a==80){ printf("Flecha abajo");}
         if (a==77){ printf("Flecha derecha");}
         if (a==72){ printf("Flecha arriba");}
-        getc();
+        getch();
     }
 
 int main(){
